@@ -35,7 +35,7 @@ The folder "junkincoffeemachine" contains the code which will be running on the 
 
 The messaging platform used in this project is [Telegram](https://telegram.org/) and the mail platform is [gmail](https://mail.google.com/).
 
-## what can be and will be improved?
+## what can and will be improved?
 
 * using cron tab instead of supervisor.
 * Checking the status of coffee machine (online/offline) before passing the MQTT message. If offline it sends a message that coffee machine is offline.
