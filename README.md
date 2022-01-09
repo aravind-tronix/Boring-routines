@@ -28,4 +28,6 @@ Supervisor logs errors and output. Try googling the errors. If still it doesnt w
 
 ## Insights
 
-The program "fucking-coffee.py" triggers the coffee machine via a [MQTT protocol](https://mqtt.org/). You need to setup a [MQTT broker](https://mosquitto.org/) in a machine. The trigger from this program publishes a mqtt message to the coffee machine, in my case its a [Raspberry pi] (https://www.raspberrypi.org/)
+The program "fucking-coffee.py" triggers the coffee machine via a [MQTT protocol](https://mqtt.org/). You need to setup a [MQTT broker](https://mosquitto.org/) in a machine. The trigger from this program publishes a mqtt message to the coffee machine, in my case its a [Raspberry pi](https://www.raspberrypi.org/).
+
+The folder "junkincoffeemachine" contains the code which will be running on the Raspberry pi. This code receives the message via MQTT and enables a hardware pin on the pi and disables it after few secounds(considering the time to fill a cup of coffee).
