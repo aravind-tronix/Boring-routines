@@ -19,6 +19,8 @@ For more, refer http://supervisord.org/introduction.html
  
 ``supervisord``
 
+Before you start the process, run the script "smack-my-bitch-up.py". It needs to be attached to a tekegram account. Its a one time setup.
+
  start process by
  
 ``supervisorctl``
