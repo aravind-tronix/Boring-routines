@@ -1,0 +1,4 @@
+schedule==1.1.0
+Telethon==1.21.1
+paho_mqtt==1.6.1
+paramiko==2.9.2
