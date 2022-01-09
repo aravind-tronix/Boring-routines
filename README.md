@@ -11,8 +11,11 @@
  edit the file supervisord.conf according to your system path. Supervisor is a client/server system that allows its users to control a number of processes on UNIX-like operating systems.(same as cron). Supervisor has been tested and is known to run on Linux (Ubuntu 18.04), Mac OS X (10.4/10.5/10.6), and Solaris (10 for Intel) and FreeBSD 6.1. It will likely work fine on most UNIX systems.
 
 Supervisor will not run at all under any version of Windows.
-For more refer http://supervisord.org/introduction.html#platform-requirements
+For more, refer http://supervisord.org/introduction.html
  
  ## Usage
- start the process
+ start supervisor by
+ ``supervisord``
+ start process by
+ ``supervisorctl``
  
