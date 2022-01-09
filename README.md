@@ -34,3 +34,10 @@ The program "fucking-coffee.py" triggers the coffee machine via a [MQTT protocol
 The folder "junkincoffeemachine" contains the code which will be running on the Raspberry pi. This code receives the message via MQTT and enables a hardware pin on the pi and disables it after few secounds(considering the time to fill a cup of coffee).
 
 The messaging platform used in this project is [Telegram](https://telegram.org/) and the mail platform is [gmail](https://mail.google.com/).
+
+## what can be improved?
+
+* using cron tab instead of supervisorctl.
+* Checking the status of coffee machine (online/offline) before passing the MQTT message. If offline it sends a message that coffee machine is offline.
+* Notifying the user when the coffee is ready.
+* Writting a better documentation for this fun filled project.
