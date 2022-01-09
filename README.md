@@ -37,7 +37,7 @@ The messaging platform used in this project is [Telegram](https://telegram.org/)
 
 ## what can be improved?
 
-* using cron tab instead of supervisorctl.
+* using cron tab instead of supervisor.
 * Checking the status of coffee machine (online/offline) before passing the MQTT message. If offline it sends a message that coffee machine is offline.
 * Notifying the user when the coffee is ready.
 * Writting a better documentation for this fun filled project.
