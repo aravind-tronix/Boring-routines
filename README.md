@@ -15,10 +15,17 @@ For more, refer http://supervisord.org/introduction.html
  
  ## Usage
  start supervisor by
+ 
 ``supervisord``
+
  start process by
+ 
 ``supervisorctl``
 
  ## Troubleshooting
  
 Supervisor logs errors and output. Try googling the errors. If still it doesnt work, IT WORKED ON MY MACHINE 🤷🏾‍♂️
+
+## Insights
+
+The program "fucking-coffee.py" triggers the coffee machine via a [MQTT protocol](https://mqtt.org/). You need to setup a [MQTT broker](https://mosquitto.org/) in a machine. The trigger from this program publishes a mqtt message to the coffee machine, in my case its a [Raspberry pi] (https://www.raspberrypi.org/)
